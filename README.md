@@ -1,4 +1,4 @@
-# Como usar emulador de terminal
+# [Como usar emulador de terminal](https://github.com/estacio-alunos/como-usar-emulador-de-terminal)
 
 Guia para dar os primeiros passos no uso do terminal
 
@@ -50,15 +50,13 @@ e, posteriormente, para comunicações telefônicas.
 
 
 
-## Materiais relacionados
+## Links de referência
 
 [1]: https://computerhistory.org/blog/programming-the-eniac-an-example-of-why-computer-history-is-hard/
 [2]: https://www.wcl.american.edu/impact/initiatives-programs/pijip/news/professor-kathryn-kleimans-research-on-women-in-early-programming-highlighted-at-eniac-75th-anniversary-celebrations/
 [3]: https://en.wikipedia.org/wiki/Telephone_switchboard
-[4]:
 
 [1]
 [2]
 [3]
-[4]
 
