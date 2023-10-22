@@ -37,11 +37,23 @@ A tecnologia incorporada nesta época foram as _switchboards_ ou _plugboards_
 
 [![eniac-plugboard.png](imgs/eniac-plugboard.png)][2]
 
+Isto já era amplamente usado desde o século 19, para comunicações via telégrafo
+e, posteriormente, para comunicações telefônicas.
+
+[![TexasRichardson_telephoneExchangeOperator.jpg](imgs/TexasRichardson_telephoneExchangeOperator.jpg)][3]
+
+### O tear do tecelão
+
+
 
 ## selecionando o guia para o seu sistema operacional
+
+
 
 ## Materiais relacionados
 
 [1]: https://computerhistory.org/blog/programming-the-eniac-an-example-of-why-computer-history-is-hard/
 [2]: https://www.wcl.american.edu/impact/initiatives-programs/pijip/news/professor-kathryn-kleimans-research-on-women-in-early-programming-highlighted-at-eniac-75th-anniversary-celebrations/
+[3]: https://en.wikipedia.org/wiki/Telephone_switchboard
+
 
