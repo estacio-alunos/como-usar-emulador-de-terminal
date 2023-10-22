@@ -119,7 +119,7 @@ Foi nesta época também que uma revolução aconteceu e trocaram o papel e tamb
 dos teletipos por uma 'televisão'. Telétipos com monitor de raios catóticos
 ficaram conhecidos como **[terminais virtuais][10]**.
 
-![Informatics_General_programmer_at_terminal.jpg](Informatics_General_programmer_at_terminal.jpg)
+![Informatics_General_programmer_at_terminal.jpg](imgs/Informatics_General_programmer_at_terminal.jpg)
 
 ### Em vez de uma casa inteira para o computador, um computador na sua casa
 
