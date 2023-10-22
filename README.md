@@ -35,7 +35,8 @@ ligar os cabos entre cada parte do computador da maneira desejada.
 
 A tecnologia incorporada nesta época foram as _switchboards_ ou _plugboards_
 
-[![eniac-plugboard.png](imgs/eniac-plugboard.png)][2]
+![eniac-plugboard.png](imgs/eniac-plugboard.png)
+[_switchboard de computador_][2]
 
 Isto já era amplamente usado desde o século 19, para comunicações via telégrafo
 e, posteriormente, para comunicações telefônicas.
@@ -44,19 +45,40 @@ e, posteriormente, para comunicações telefônicas.
 
 ### O tear do tecelão
 
+O processo de pular e desplugar cabos é tedioso além de ser passível de erro. Um
+outro problema tedioso era a correta criação dos padrões nos tecidos produzidos
+nas máquinas de tear. Não parece óbvio, mas são problemas similares. Máquinas de
+tear, bem como alguns instrumentos musicais, usavam [cartões perfurados][4] para
+automatizar suas tarefas.
 
+![DMM_29263ab_Jacquardwebstuhl.jpg](imgs/DMM_29263ab_Jacquardwebstuhl.jpg)
+
+Logo, os cartões perfurados se tornaram a forma preferida de se comunicar com os
+computadores: bastava produzir um deck de cartões coerente e o computador
+executaria o lote sem maiores problemas.
+
+![1280px-Keypunch_operator_1950_census_IBM_016.jpg](imgs/1280px-Keypunch_operator_1950_census_IBM_016.jpg)
 
 ## selecionando o guia para o seu sistema operacional
 
+Como visto, o terminal é bastante ligado ao sistema operacional instalado no
+computador. Por conta disso, neste momento este guia se reparte nos módulos a
+seguir:
 
+- [emulador de terminal virtual no linux](linux/README.md)
+- [emulador de terminal virtual no mac](mac/README.md)
+- [emulador de terminal virtual no windows](windows/README.md)
+- [emulador de terminal virtual em outros sistemas operacionais](outros/README.md)
 
 ## Links de referência
+
+- [eniac][1]
+- [switchboard de computador][2]
+- [switchboard telefônico][3]
+- [cartão perfurado][4]
 
 [1]: https://computerhistory.org/blog/programming-the-eniac-an-example-of-why-computer-history-is-hard/
 [2]: https://www.wcl.american.edu/impact/initiatives-programs/pijip/news/professor-kathryn-kleimans-research-on-women-in-early-programming-highlighted-at-eniac-75th-anniversary-celebrations/
 [3]: https://en.wikipedia.org/wiki/Telephone_switchboard
-
-[1]
-[2]
-[3]
+[4]: https://en.wikipedia.org/wiki/Punched_card
 
