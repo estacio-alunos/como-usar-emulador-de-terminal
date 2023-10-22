@@ -1,0 +1,1 @@
+# emulador de terminal em outros sistemas operacionais
