@@ -74,7 +74,7 @@ Outro modo de introduzir os programas na memória do computador era inserir os
 programas através de [terminais de teletipo][7], amplamente usados em redes de
 telégrafo, usando outra revolução, as chamadas _linguagens de programação_,
 cujas origens datam do século 19, nas trocas de cartas entre
-[Charles Babbage ][5] e [Ada Lovelace][6].
+[Charles Babbage][5] e [Ada Lovelace][6].
 
 ![terminal-teletipo.jpg](imgs/terminal-teletipo.jpg)
 
@@ -94,7 +94,7 @@ _emuladores de terminal virtual_.
 
 O grandes computadores ocupavam salas inteiras com seus distintos módulos, CPU,
 controladores de fita magnética, leitores de cartão perfurado, telétipos e
-impressoras de alta peformance.
+impressoras de alta _performance_.
 
 Eram equipamentos concorridos pois o trabalho de anos poderia ser resolvido em
 poucos dias.
@@ -116,7 +116,7 @@ computador entre todos os outros programas. Com o tempo este tipo de programa
 viria a evoluir e ser conhecido como [sistema operacional][9].
 
 Foi nesta época também que uma revolução aconteceu e trocaram o papel e tambor
-dos teletipos por uma 'televisão'. Telétipos com monitor de raios catóticos
+dos teletipos por uma 'televisão'. Telétipos com monitor de raios cetóticos
 ficaram conhecidos como **[terminais virtuais][10]**.
 
 ![Informatics_General_programmer_at_terminal.jpg](imgs/Informatics_General_programmer_at_terminal.jpg)
@@ -137,6 +137,8 @@ _microcomputadores_.
 
 Estamos nos anos 80 e microcomputadores eram ligados a uma televisão e vinham
 com [um teclado embutido, além de algumas entradas para outros periféricos][12].
+
+![shell_c64.jpg](imgs/shell_c64.jpg)
 
 Microcomputadores eram vistos como um brinquedo, um hobby caro ou apenas um
 terminal virtual glorificado para a plataforma alta até que aplicações para
