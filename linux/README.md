@@ -147,9 +147,58 @@ o comando acima 'ecoa' o valor da variável no terminal.
 No exemplo acima podemos ver alguns detalhes importantes sobre os modernos
 emuladores de terminal virtual:
 
+- No título temos **`Documentos: bash - konsole`**: `Documentos` é o nome da
+  pasta, `bash` é o nome do shell e [konsole][14] é o nome do emulador de
+  terminal virtual. Existem muitos outros além deste: [console][15],
+  [terminology][16] e [xterm][17], para citar alguns.
+- **`sombriks@thanatos:~/Documentos`** é o valor de uma variável de ambiente
+  especial chamada [PS1][18]. temos aí representados o nome do usuário
+  (`sombriks`), o nome do computador ou _hostname_ (`thanatos`) e o caminho da
+  pasta atual (`~/Documentos`). Esse `~` é um apelido para um diretório
+  especial, a 'casa do usuário' ou `$HOME`. Assim como o `$PWD` o valor do `~` é
+  acessível através de uma variável de ambiente.
+
+![Alt text](../imgs/echo-home.jpg)
+
 ### Argumentos de programa
 
+Os processos invocados em um shell podem mudar seu comportamento dependendo das
+entradas que ele recebe.
+
+Variáveis de ambiente podem funcionar como entrada de um processo.
+
+Os processos podem, ativamente, interromper a própria execução e perguntar ao
+usuário por valores que ele precisa e então, resumir seu funcionamento.
+
+É possível ainda fornecer [argumentos][19] para o programa. Por exemplo, o
+comando `echo`, visto anteriormente, recebe como _argumento_ um texto ou o nome
+da variável que você deseja conhecer o conteúdo:
+
+```bash
+echo Olá
+Olá
+echo $USER
+sombriks
+```
+
+Onde `echo` é o programa a executar, `Olá` e `$USER` foram os argumentos
+utilizados em cada execução.
+
+Perceba que o programa é o mesmo, mas o resultado muda de acordo com o
+argumento fornecido.
+
 ### Saída padrão e erro padrão
+
+Herança do telétipo, terminais virtuais exibem em texto as entradas dos usuários
+e também as saídas, na mesma 'folha', como uma carta contendo o diálogo entre
+dois atores. Como um script de teatro, com dois personagens interagindo. A esta
+'folha de papel' damos o nome de saída, pois tanto usuário quanto computador
+usam ela para enviar suas mensagens.
+
+O shell do sistema operacional honra esta mesma abstração, porém com um
+diferencial: ele sabe quando uma saída é um erro.
+
+No bash, existem comodidades para controlar o destino das saídas.
 
 ## Principais comandos
 
@@ -170,6 +219,12 @@ emuladores de terminal virtual:
 - [Variáveis de ambiente][11]
 - [Diretórios do sistema de arquivos][12]
 - [_PWD - Program Working Directory_][13]
+- [Konsole][14]
+- [Console][15]
+- [Terminology][16]
+- [Xterm][17]
+- [A variável de ambiente PS1][18]
+- [Argumentos de linha de comando][19]
 
 [1]: https://www.linux.org/
 [2]: https://en.wikipedia.org/wiki/Usage_share_of_operating_systems#Public_servers_on_the_Internet
@@ -184,3 +239,9 @@ emuladores de terminal virtual:
 [11]: https://pt.stackoverflow.com/a/339483/5827
 [12]: https://linuxhandbook.com/linux-directory-structure/
 [13]: https://en.wikipedia.org/wiki/Pwd
+[14]: https://konsole.kde.org/
+[15]: https://apps.gnome.org/pt-BR/Console/
+[16]: https://www.enlightenment.org/about-terminology
+[17]: https://invisible-island.net/xterm/
+[18]: https://courses.cs.washington.edu/courses/cse374/16wi/lectures/PS1-guide.html
+[19]: https://en.wikipedia.org/wiki/Command-line_interface#Arguments
