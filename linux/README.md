@@ -150,7 +150,7 @@ emuladores de terminal virtual:
 - No título temos **`Documentos: bash - konsole`**: `Documentos` é o nome da
   pasta, `bash` é o nome do shell e [konsole][14] é o nome do emulador de
   terminal virtual. Existem muitos outros além deste: [console][15],
-  [terminology][16] e [xterm][17], para citar alguns.
+  [terminology][16], [xterm][17] e [alacritty][20], para citar alguns.
 - **`sombriks@thanatos:~/Documentos`** é o valor de uma variável de ambiente
   especial chamada [PS1][18]. temos aí representados o nome do usuário
   (`sombriks`), o nome do computador ou _hostname_ (`thanatos`) e o caminho da
@@ -198,9 +198,43 @@ usam ela para enviar suas mensagens.
 O shell do sistema operacional honra esta mesma abstração, porém com um
 diferencial: ele sabe quando uma saída é um erro.
 
-No bash, existem comodidades para controlar o destino das saídas.
+No bash, [existem comodidades][21] para controlar o destino das saídas:
+
+![saida-padrao.jpg](../imgs/saida-padrao.jpg)
+
+No exemplo acima usamos o programa `cat`. Ele recebe como argumento o caminho de
+um arquivo. Daí o cat lança na saída padrão o conteúdo deste arquivo.
+
+O que acontece se o arquivo não existir? O `cat` informa no terminal deste
+acontecimento inesperado, mas faz isso pela saída de erro.
+
+No exemplo, a primeira chamada ao cat tenta exibir o conteúdo do arquivo com
+nome `.bashrc1` que deveria estar dentro da pasta `$HOME` do usuário, ou `~`,
+como podemos deduzir lendo o prompt do terminal.
+
+Mas há dois argumentos a mais, o `>` e o `/dev/null`: o `>` redireciona a saída
+padrão para algum lugar, normalmente um arquivo. o `/dev/null` representa o
+vazio, ou seja, quero exibir o conteúdo do arquivo, mas na verdade desejo mandar
+esta visualização para ninguém, nenhum lugar.
+
+Mas mesmo assim teve saída na tela do terminal!
+
+Isso ocorreu porque houve um erro: o arquivo não existe.
+A mensagem exibida foi enviada para a saída de erro e, portanto, não foi
+redirecionada para `/dev/null`.
+
+Já na segunda tentativa de usar o `cat`, houve sucesso e, caso não houvesse o
+`> /dev/null` na linha de comando, veríamos diversas variáveis presentes dentro
+do .bashrc
+
+Para outros tópicos intermediários sobre bash você pode consultar
+[este guia][22].
 
 ## Principais comandos
+
+É importante saber se localizar no sistema de arquivos quando usando um terminal
+e, quando necessário, saber mudar de pasta, listar arquivos de uma pasta, criar,
+excluir, copiar e mover pastas e arquivos.
 
 ## Programas populares
 
@@ -225,6 +259,9 @@ No bash, existem comodidades para controlar o destino das saídas.
 - [Xterm][17]
 - [A variável de ambiente PS1][18]
 - [Argumentos de linha de comando][19]
+- [Alacrity][20]
+- [Saída padrão e saída de erro][21]
+- [Guia bash/shellscript][22]
 
 [1]: https://www.linux.org/
 [2]: https://en.wikipedia.org/wiki/Usage_share_of_operating_systems#Public_servers_on_the_Internet
@@ -245,3 +282,6 @@ No bash, existem comodidades para controlar o destino das saídas.
 [17]: https://invisible-island.net/xterm/
 [18]: https://courses.cs.washington.edu/courses/cse374/16wi/lectures/PS1-guide.html
 [19]: https://en.wikipedia.org/wiki/Command-line_interface#Arguments
+[20]: https://github.com/alacritty/alacritty
+[21]: https://www.redhat.com/sysadmin/redirect-shell-command-script-output
+[22]: https://developers.redhat.com/cheat-sheets/bash-shell-cheat-sheet?intcmp=701f20000012ngPAAQ&extIdCarryOver=true&sc_cid=701f2000001OH7EAAW
