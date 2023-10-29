@@ -236,7 +236,109 @@ Para outros tópicos intermediários sobre bash você pode consultar
 e, quando necessário, saber mudar de pasta, listar arquivos de uma pasta, criar,
 excluir, copiar e mover pastas e arquivos.
 
-## Programas populares
+O comando `ls` lista o conteúdo da pasta atual:
+
+```bash
+ls
+```
+
+O comando `cd` muda o diretório atual:
+
+```bash
+cd Downloads
+```
+
+Se o `cd` (_Change Directory_) for chamado sem argumentos, ele muda o diretório
+atual para o `$HOME` do usuário
+
+O comando `touch` cria um arquivo vazio:
+
+```bash
+touch exemplo.txt
+```
+
+Caso o arquivo já exista, apenas o metadado de última modificação é alterado.
+
+O comando `rm` exclui um arquivo:
+
+```bash
+rm exemplo.txt
+```
+
+O comando `mkdir` cria uma pasta:
+
+```bash
+mkdir minha-pasta
+```
+
+O comando `mv` renomeia pastas ou arquivos:
+
+```bash
+mv minha-pasta minha_pasta
+```
+
+Ele também move arquivos e pastas para dentro de uma pasta:
+
+```bash
+touch arquivo2.txt
+mv arquivo2.txt minha_pasta
+ls minha_pasta
+```
+
+O comando `echo` também pode ser usado para criar arquivos, basta usar o
+redirecionamento da saída padrão:
+
+```bash
+echo $USER > arquivo3.txt
+cat arquivo3.txt
+```
+
+O comando `cp` copia arquivos:
+
+```bash
+cp arquivo3.txt arquivo4.txt
+cat arquivo4.txt
+```
+
+Quando o segundo argumento é uma pasta, a cópia é criada dentro da pasta, com o
+mesmo nome do arquivo original:
+
+```bash
+cp arquivo3.txt minha_pasta
+ls minha_pasta
+cat minha_pasta/arquivo3.txt
+```
+
+O comando `ps` lista os processos em execução:
+
+```bash
+ps
+```
+
+A lista de programas é bem mais útil usando os argumentos abaixo:
+
+```bash
+ps auxf
+```
+
+Isso retorna uma 'árvore' de processos relacionada aos usuários 'donos' de cada
+processo.
+
+O comando `top` é parecido, porém entra em um modo interativo. pressione a letra
+'q' para sair ou `ctrl+c`:
+
+```bash
+top
+```
+
+## Considerações finais
+
+Os comandos acima devem permitir uma desenvoltura inicial para se encontrar no
+mundo da linha de comando.
+
+Confira os links de referência, bem como outros guias dedicados ao
+[shellscript][23]. Domine o terminal e sinta-se um mago emitindo palavras
+mágicas pra transformar o mundo, ;-)
 
 ## Links de referência
 
@@ -262,6 +364,7 @@ excluir, copiar e mover pastas e arquivos.
 - [Alacrity][20]
 - [Saída padrão e saída de erro][21]
 - [Guia bash/shellscript][22]
+- [Mais shellscript][23]
 
 [1]: https://www.linux.org/
 [2]: https://en.wikipedia.org/wiki/Usage_share_of_operating_systems#Public_servers_on_the_Internet
@@ -285,3 +388,4 @@ excluir, copiar e mover pastas e arquivos.
 [20]: https://github.com/alacritty/alacritty
 [21]: https://www.redhat.com/sysadmin/redirect-shell-command-script-output
 [22]: https://developers.redhat.com/cheat-sheets/bash-shell-cheat-sheet?intcmp=701f20000012ngPAAQ&extIdCarryOver=true&sc_cid=701f2000001OH7EAAW
+[23]: https://diegomariano.com/shell-script-um-guia-basico/
