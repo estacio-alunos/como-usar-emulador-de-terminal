@@ -82,8 +82,8 @@ O teletipo era uma espécie de máquina de escrever que codificava o texto em
 sinais de código morse. Ele foi rapidamente adaptado para codificar os sinais em
 algo que os computadores compreendessem.
 
-É por isso que em alguns sistemas o termo `tty` indica um terminal. Terminal de
-teletipo.
+É por isso que em alguns sistemas o termo [tty][16 indica um terminal. Terminal
+de teletipo.
 
 Eles eram equipamentos relativamente pesados e ficavam em uma mesa curta chamada
 `console`. O termo _teletype terminal on console_ foi com o tempo sendo resumido
@@ -219,3 +219,4 @@ seguir:
 [13]: https://pt.wikipedia.org/wiki/VisiCalc
 [14]: https://pt.wikipedia.org/wiki/IBM_PC
 [15]: https://pt.wikipedia.org/wiki/Apple_Lisa
+[16]: https://computer.rip/2024-02-25-a-history-of-the-tty.html
