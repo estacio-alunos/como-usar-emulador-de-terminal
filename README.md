@@ -45,7 +45,7 @@ e, posteriormente, para comunicações telefônicas.
 
 ### O tear do tecelão
 
-O processo de pular e desplugar cabos é tedioso além de ser passível de erro. Um
+O processo de plugar e desplugar cabos é tedioso além de ser passível de erro. Um
 outro problema tedioso era a correta criação dos padrões nos tecidos produzidos
 nas máquinas de tear. Não parece óbvio, mas são problemas similares. Máquinas de
 tear, bem como alguns instrumentos musicais, usavam [cartões perfurados][4] para
@@ -82,7 +82,7 @@ O teletipo era uma espécie de máquina de escrever que codificava o texto em
 sinais de código morse. Ele foi rapidamente adaptado para codificar os sinais em
 algo que os computadores compreendessem.
 
-É por isso que em alguns sistemas o termo [tty][16 indica um terminal. Terminal
+É por isso que em alguns sistemas o termo [tty][16] indica um terminal. Terminal
 de teletipo.
 
 Eles eram equipamentos relativamente pesados e ficavam em uma mesa curta chamada
